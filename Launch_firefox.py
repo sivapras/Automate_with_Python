@@ -61,7 +61,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 driver = webdriver.Firefox(executable_path=r'/home/srinivas/Django/Selenium_Python/geckodriver')
 
-driver.implicitly_wait(30)
+driver.implicitly_wait(20)
 driver.maximize_window()
 
 # Navigate to the application home page
